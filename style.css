@@ -235,6 +235,34 @@ border-radius:30px;
     animation:fillBar 1.5s ease-in-out;
 }
 
+#resume{
+    background:#ffffff;
+    margin-top:40px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+#resume h2{
+    color:#00509e;
+}
+
+#resume h3{
+    margin-top:25px;
+    color:#00509e;
+}
+
+#resume h4{
+    margin-bottom:5px;
+}
+
+#resume ul{
+    padding-left:20px;
+}
+
+#resume hr{
+    margin:30px 0;
+}
 @keyframes fillBar{
     from{
         width:0;
