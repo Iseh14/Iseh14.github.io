@@ -224,11 +224,19 @@ border-radius:30px;
 .progress div{
     height:22px;
     background:#00509e;
-    color:#ffffff;   /* White text */
+    color:#fff;
     display:flex;
     align-items:center;
     justify-content:flex-end;
     padding-right:10px;
     font-size:13px;
     font-weight:bold;
+    border-radius:25px;
+    animation:fillBar 1.5s ease-in-out;
+}
+
+@keyframes fillBar{
+    from{
+        width:0;
+    }
 }
