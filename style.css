@@ -196,3 +196,20 @@ background:#00509e;
 border-radius:30px;
 
 }
+
+/* Technologies & Tools */
+
+.tools{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+.tools span{
+    background:#00509e;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    font-size:14px;
+}
