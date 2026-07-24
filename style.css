@@ -224,7 +224,7 @@ border-radius:30px;
 .progress div{
     height:22px;
     background:#00509e;
-    color:white;
+    color:#ffffff;   /* White text */
     display:flex;
     align-items:center;
     justify-content:flex-end;
