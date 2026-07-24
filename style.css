@@ -118,3 +118,81 @@ border-radius:8px;
     height: 20px;
     background-color: #00509e;
 }
+
+/* =======================
+   TECHNICAL SKILLS
+======================= */
+
+.skills-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:25px;
+
+margin-top:30px;
+
+}
+
+.skill-card{
+
+background:#ffffff;
+
+padding:20px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.skill-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+.skill-card h3{
+
+margin-bottom:15px;
+
+color:#00509e;
+
+}
+
+.skill-card p{
+
+font-size:15px;
+
+color:#555;
+
+margin-top:12px;
+
+}
+
+.progress{
+
+width:100%;
+
+height:18px;
+
+background:#ddd;
+
+border-radius:30px;
+
+overflow:hidden;
+
+}
+
+.progress div{
+
+height:18px;
+
+background:#00509e;
+
+border-radius:30px;
+
+}
